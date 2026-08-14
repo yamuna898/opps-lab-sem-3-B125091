@@ -13,9 +13,12 @@ public:
     }
 
     void display() const {
-        cout << "\nID: " << id << " | Name: " << Pname 
-             << " | Price: " << price << " | Qty: " << qty 
-             << " | Total: " << price * qty << "\n";
+        cout << "\nID: " << id << 
+        " | Name: " << Pname << 
+        " | Price: " << price << 
+        " | Qty: " << qty << 
+        " | Total: " << price * qty << 
+        "\n";
     }
 };
 
