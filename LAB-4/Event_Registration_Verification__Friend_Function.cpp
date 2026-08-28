@@ -13,7 +13,7 @@ public:
 };
 
 void verifyParticipant(const EventParticipant &p) {
-    cout << "Participant Name: " << p.participantName << "\nAge: " << p.age 
+    cout << "Participant Name: " << p.participantName << "\nAge: " << p.age
          << "\nRegistration Status: " << p.registrationStatus << "\nResult: "
          << (p.age >= 18 && p.registrationStatus == "Active" ? "Eligible" : "Not Eligible") << endl;
 }
