@@ -20,4 +20,5 @@ int main() {
          << km << " km = " << convert(km) << " meters\n"
          << m << " meters = " << convert(m, 'c') << " centimeters\n"
          << fKm << " km = " << convert(fKm) << " meters\n";
+    return 0;
 }
